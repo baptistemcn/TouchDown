@@ -9,7 +9,7 @@ import SwiftUI
 
 // API
 // COLOR
-let colorBackground: Color = Color("ColorBarkground")
+let colorBackground: Color = Color("ColorBackground")
 let colorGray: Color = Color(UIColor.systemGray4)
 
 // DATA
