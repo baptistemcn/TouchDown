@@ -30,6 +30,7 @@
 		47BB90F0266150C3001C112E /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BB90EF266150C3001C112E /* TitleView.swift */; };
 		47BB90F3266151C6001C112E /* ProductModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BB90F2266151C6001C112E /* ProductModel.swift */; };
 		47BB90F626615267001C112E /* ProductItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BB90F526615267001C112E /* ProductItemView.swift */; };
+		47BB90F926615CB7001C112E /* BrandModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BB90F826615CB7001C112E /* BrandModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +59,7 @@
 		47BB90EF266150C3001C112E /* TitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
 		47BB90F2266151C6001C112E /* ProductModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductModel.swift; sourceTree = "<group>"; };
 		47BB90F526615267001C112E /* ProductItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductItemView.swift; sourceTree = "<group>"; };
+		47BB90F826615CB7001C112E /* BrandModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,6 +172,7 @@
 				47BB90D52660F6D1001C112E /* PlayerModel.swift */,
 				47BB90E3266131CA001C112E /* CategoryModel.swift */,
 				47BB90F2266151C6001C112E /* ProductModel.swift */,
+				47BB90F826615CB7001C112E /* BrandModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -278,6 +281,7 @@
 				47BB90E726613416001C112E /* CategoryItemView.swift in Sources */,
 				47BB90E02660F941001C112E /* FeaturedTabView.swift in Sources */,
 				47BB90D62660F6D1001C112E /* PlayerModel.swift in Sources */,
+				47BB90F926615CB7001C112E /* BrandModel.swift in Sources */,
 				47BB90F0266150C3001C112E /* TitleView.swift in Sources */,
 				47BB90F3266151C6001C112E /* ProductModel.swift in Sources */,
 			);
