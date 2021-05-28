@@ -31,3 +31,4 @@ var gridLayout: [GridItem] {
 // MISC
 // STRING
 // UX
+let feedback = UIImpactFeedbackGenerator(style: .medium)
