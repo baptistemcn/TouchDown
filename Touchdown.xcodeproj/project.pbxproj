@@ -33,6 +33,10 @@
 		47BB90F926615CB7001C112E /* BrandModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BB90F826615CB7001C112E /* BrandModel.swift */; };
 		47BB90FC26615D23001C112E /* BrandItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BB90FB26615D23001C112E /* BrandItemView.swift */; };
 		47BB90FF26615DEB001C112E /* BrandGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BB90FE26615DEB001C112E /* BrandGridView.swift */; };
+		47BB910326615FFA001C112E /* ProductDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BB910226615FFA001C112E /* ProductDetailView.swift */; };
+		47BB91062661613D001C112E /* NavigationBarDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BB91052661613D001C112E /* NavigationBarDetailView.swift */; };
+		47BB910926616247001C112E /* HeaderDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BB910826616247001C112E /* HeaderDetailView.swift */; };
+		47BB910C266162DA001C112E /* TopPartDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BB910B266162DA001C112E /* TopPartDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -64,6 +68,10 @@
 		47BB90F826615CB7001C112E /* BrandModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandModel.swift; sourceTree = "<group>"; };
 		47BB90FB26615D23001C112E /* BrandItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandItemView.swift; sourceTree = "<group>"; };
 		47BB90FE26615DEB001C112E /* BrandGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandGridView.swift; sourceTree = "<group>"; };
+		47BB910226615FFA001C112E /* ProductDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailView.swift; sourceTree = "<group>"; };
+		47BB91052661613D001C112E /* NavigationBarDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarDetailView.swift; sourceTree = "<group>"; };
+		47BB910826616247001C112E /* HeaderDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderDetailView.swift; sourceTree = "<group>"; };
+		47BB910B266162DA001C112E /* TopPartDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopPartDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +141,7 @@
 			children = (
 				47BB90A4265FE97A001C112E /* TouchdownApp.swift */,
 				47BB90A6265FE97A001C112E /* ContentView.swift */,
+				47BB910226615FFA001C112E /* ProductDetailView.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -168,6 +177,9 @@
 		47BB90C426600B4C001C112E /* Detail */ = {
 			isa = PBXGroup;
 			children = (
+				47BB91052661613D001C112E /* NavigationBarDetailView.swift */,
+				47BB910826616247001C112E /* HeaderDetailView.swift */,
+				47BB910B266162DA001C112E /* TopPartDetailView.swift */,
 			);
 			path = Detail;
 			sourceTree = "<group>";
@@ -273,6 +285,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				47BB90D92660F733001C112E /* CodableBundleExtension.swift in Sources */,
+				47BB910926616247001C112E /* HeaderDetailView.swift in Sources */,
+				47BB910C266162DA001C112E /* TopPartDetailView.swift in Sources */,
 				47BB90A7265FE97A001C112E /* ContentView.swift in Sources */,
 				47BB90D32660162E001C112E /* LogoView.swift in Sources */,
 				47BB90CD26600D54001C112E /* FooterView.swift in Sources */,
@@ -280,6 +294,8 @@
 				47BB90F626615267001C112E /* ProductItemView.swift in Sources */,
 				47BB90A5265FE97A001C112E /* TouchdownApp.swift in Sources */,
 				47BB90C926600C07001C112E /* Constant.swift in Sources */,
+				47BB910326615FFA001C112E /* ProductDetailView.swift in Sources */,
+				47BB91062661613D001C112E /* NavigationBarDetailView.swift in Sources */,
 				47BB90EA2661494F001C112E /* CategoryGridView.swift in Sources */,
 				47BB90E4266131CA001C112E /* CategoryModel.swift in Sources */,
 				47BB90D0266010C1001C112E /* NavigationBarView.swift in Sources */,
