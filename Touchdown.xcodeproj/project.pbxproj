@@ -20,6 +20,7 @@
 		47BB90D0266010C1001C112E /* NavigationBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BB90CF266010C1001C112E /* NavigationBarView.swift */; };
 		47BB90D32660162E001C112E /* LogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BB90D22660162E001C112E /* LogoView.swift */; };
 		47BB90D62660F6D1001C112E /* PlayerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BB90D52660F6D1001C112E /* PlayerModel.swift */; };
+		47BB90D92660F733001C112E /* CodableBundleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BB90D82660F733001C112E /* CodableBundleExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		47BB90CF266010C1001C112E /* NavigationBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarView.swift; sourceTree = "<group>"; };
 		47BB90D22660162E001C112E /* LogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoView.swift; sourceTree = "<group>"; };
 		47BB90D52660F6D1001C112E /* PlayerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerModel.swift; sourceTree = "<group>"; };
+		47BB90D82660F733001C112E /* CodableBundleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableBundleExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +150,7 @@
 		47BB90C626600B5E001C112E /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				47BB90D82660F733001C112E /* CodableBundleExtension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -233,6 +236,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47BB90D92660F733001C112E /* CodableBundleExtension.swift in Sources */,
 				47BB90A7265FE97A001C112E /* ContentView.swift in Sources */,
 				47BB90D32660162E001C112E /* LogoView.swift in Sources */,
 				47BB90CD26600D54001C112E /* FooterView.swift in Sources */,

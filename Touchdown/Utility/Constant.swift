@@ -13,6 +13,7 @@ let colorBackground: Color = Color("ColorBackground")
 let colorGray: Color = Color(UIColor.systemGray4)
 
 // DATA
+let players: [Player] = Bundle.main.decode("player.json")
 // FONT
 // IMAGE
 // LAYOUT
