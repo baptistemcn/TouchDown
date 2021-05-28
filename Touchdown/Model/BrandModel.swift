@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Brand {
+struct Brand: Codable, Identifiable {
     let id: Int
     let image: String
 }
